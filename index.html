@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="guess.js" defer></script>
+    <link rel="stylesheet" href="guess.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <center>
+        <h1>You will have to guess the number to win</h1>
+        <p>
+          We have decided on a number within the range
+          <strong>1 <em>to</em> 100</strong>. <br /><br />
+          You will guess the number until your guess is right. <br /><br />
+          We will answer whether your is guess is <strong>high</strong> or
+          <strong>low</strong> until you get it correct. <br /><br />
+        </p>
+
+        <input type="number" placeholder="Enter a number" id="num" />
+        <input type="button" value="check" onclick="guess()" />
+        <p id="res"></p>
+      </center>
+    </div>
+  </body>
+</html>
